@@ -25,6 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function wcc_blocks_wcc_blocks_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ . '/build/wcc-grid-layout' );
+	register_block_type( __DIR__ . '/build/wcc-two-column-vertical-flex' );
 }
 add_action( 'init', 'wcc_blocks_wcc_blocks_block_init' );
