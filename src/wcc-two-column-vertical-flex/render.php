@@ -4,5 +4,5 @@
  */
 ?>
 <p <?php echo get_block_wrapper_attributes(); ?>>
-	<?php esc_html_e( 'WCC Blocks – hello from a dynamic block!', 'wcc-blocks' ); ?>
+	<?php esc_html_e( 'WCC Two Column Vertical Flex – hello from a dynamic block!', 'wcc-two-column-vertical-flex' ); ?>
 </p>

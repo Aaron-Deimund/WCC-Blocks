@@ -32,7 +32,7 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
-			{ __( 'WCC Blocks – hello from the editor!', 'wcc-blocks' ) }
+			{ __( 'WCC Grid Layout – hello from the editor!', 'wcc-grid-layout' ) }
 		</p>
 	);
 }
